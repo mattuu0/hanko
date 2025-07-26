@@ -22,7 +22,9 @@ spec:
             - name: POSTGRES_USER
               value: hanko
             - name: POSTGRES_PASSWORD
-              value: hanko
+              value: hanko    
+            - name: PGDATA
+              value: /var/lib/postgresql/data/pgdata
           volumeMounts:
             - mountPath: /docker-entrypoint-initdb.d
               name: initdb
