@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: hanko-quickstart
-          image: ghcr.io/teamhanko/hanko/quickstart:main
+          image: ghcr.io/teamhanko/hanko/quickstart:main-3f7198c-2025-07-24.151307
           imagePullPolicy: IfNotPresent
           env:
             - name: HANKO_URL

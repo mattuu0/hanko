@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: hanko
-          image: ghcr.io/teamhanko/hanko:main
+          image: ghcr.io/teamhanko/hanko:main-3f7198c-2025-07-24.151301
           imagePullPolicy: IfNotPresent
           command:
             - /hanko

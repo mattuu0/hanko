@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: hanko-elements
-          image: ghcr.io/teamhanko/hanko/elements:main
+          image: ghcr.io/teamhanko/hanko/elements:main-3f7198c-2025-07-24.151301
           imagePullPolicy: IfNotPresent
           env:
             - name: HANKO_URL
