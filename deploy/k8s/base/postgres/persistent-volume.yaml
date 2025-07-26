@@ -9,7 +9,7 @@ metadata:
   name: postgres-pv-claim
   namespace: hanko
 spec:
-  storageClassName: standard
+  # storageClassName: standard
   accessModes:
     - ReadWriteOnce
   resources:
