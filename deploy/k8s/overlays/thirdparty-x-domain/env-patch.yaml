@@ -10,13 +10,13 @@ spec:
         - name: hanko-quickstart
           env:
             - name: HANKO_URL
-              value: https://hanko.domain-hanko.grocery
+              value: https://hanko.mattuu.com
             - name: HANKO_URL_INTERNAL
-              value: http://hanko-public
+              value: http://hanko.mattuu.com
             - name: HANKO_ELEMENT_URL
-              value: https://elements.domain-app.grocery/elements.js
+              value: https://elements-hanko.mattuu.com/elements.js
             - name: HANKO_FRONTEND_SDK_URL
-              value: https://elements.domain-app.grocery/sdk.modern.js
+              value: https://elements-hanko.mattuu.com/sdk.modern.js
 ---
 apiVersion: apps/v1
 kind: Deployment
