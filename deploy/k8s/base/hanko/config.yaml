@@ -21,7 +21,7 @@ server:
       enabled: true
       allow_credentials: true
       allow_origins:
-        - 'https://app.quickstart.test'
+        - 'https://127.0.0.1:5500'
 webauthn:
   relying_party:
-    origin: "https://app.quickstart.test"
+    origin: "https://127.0.0.1:5500"
