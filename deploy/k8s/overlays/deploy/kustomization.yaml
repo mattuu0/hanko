@@ -1,0 +1,6 @@
+namespace: hanko-quickstart
+resources:
+  - ../../base/postgres
+  - ../../base/hanko
+  - ../../base/elements
+  - ../../base/mailhog
